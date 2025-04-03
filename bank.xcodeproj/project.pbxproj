@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		D1A69CED2D9F2FCD00E01490 /* bank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1A69CED2D9F2FCD00E01490 /* bank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = bank.app; path = "/Users/iqonese/Desktop/apps/bank/build/Debug-iphoneos/bank.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		D1A69CFF2D9F2FCE00E01490 /* Exceptions for "bank" folder in "bank" target */ = {
+		D1A69D062D9F315F00E01490 /* Exceptions for "bank" folder in "bank" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -24,7 +24,7 @@
 		D1A69CEF2D9F2FCD00E01490 /* bank */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				D1A69CFF2D9F2FCE00E01490 /* Exceptions for "bank" folder in "bank" target */,
+				D1A69D062D9F315F00E01490 /* Exceptions for "bank" folder in "bank" target */,
 			);
 			path = bank;
 			sourceTree = "<group>";
@@ -46,16 +46,7 @@
 			isa = PBXGroup;
 			children = (
 				D1A69CEF2D9F2FCD00E01490 /* bank */,
-				D1A69CEE2D9F2FCD00E01490 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		D1A69CEE2D9F2FCD00E01490 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D1A69CED2D9F2FCD00E01490 /* bank.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -108,7 +99,7 @@
 			mainGroup = D1A69CE42D9F2FCD00E01490;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = D1A69CEE2D9F2FCD00E01490 /* Products */;
+			productRefGroup = D1A69CE42D9F2FCD00E01490;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -150,7 +141,6 @@
 				INFOPLIST_FILE = bank/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -178,7 +168,6 @@
 				INFOPLIST_FILE = bank/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
